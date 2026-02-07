@@ -5,6 +5,7 @@ import rl "github.com/gen2brain/raylib-go/raylib"
 type Timer struct {
 	Duration float64
 	Elapsed  float64
+	MaxTime  float64
 	Repeat   bool
 	Active   bool
 	Callback func()
